@@ -20,6 +20,7 @@ function appendVal(val) {
     while (temp.next != null) {
       temp = temp.next;
     }
+
     temp.next = newNode;
   }
 }
